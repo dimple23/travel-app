@@ -41,6 +41,6 @@ export function handleSubmit(event) {
       })
   }
   else {
-      alert("ERROR! Please enter the city and departure date")
+      alert("ERROR! Please enter the Location & trip date")
   }
 };
