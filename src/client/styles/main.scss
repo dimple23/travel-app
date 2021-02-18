@@ -16,10 +16,10 @@ html, body {
 	height: 100%;
 	background-color:darkblue;
 	background-size: cover;
-	background-image: url('/src/client/img/back.jpeg');
+	//background-image: url('/src/client/img/back.jpg');
 }
 
-#container {
+#main{
 	width: 500px;
 	margin-left: auto;
 	margin-right:auto;
@@ -27,6 +27,8 @@ html, body {
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
+	//background-image: url('/src/client/img/back.jpg');
+	
 }
 
 header{
@@ -51,23 +53,26 @@ h1 {
 h2 {
 	font-size: 20px;
 	margin: 10px 5px 10px 0px;
-	color: darkviolet;
+	color:darkturquoise ;
 }
 
 h3 {
 	font-size: 18px;
 	margin: 5px 5px 5px 0px;
-	color:darkviolet;
+	color:darkturquoise ;
+
 }
 
 .title h2 {
-	color: darkviolet;
+	color:darkturquoise ;
+
 }
 
 p {
 	font-size: 14px;
 	margin: 5px 0px 5px 0px;
-	color: darkviolet;
+	color:darkturquoise ;
+
 }
 
 span {
@@ -80,23 +85,26 @@ span {
 	text-align: center;
 	justify-content: center;
 	align-self: center;
-	width: 300px;
-	background-color:  aliceblue;
-	margin-left: auto;
-	margin-right: auto;
+	width: 100%;
+  background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(141, 221, 221,));
+	//margin-left: auto;
+	//margin-right: auto;
 	margin-top: 100px;
-	
+	height: 500px;
+	//background-image: url('/src/client/img/back.jpg');
 }
 #section2 {
 	display: none;
 	flex-direction: column;
 	width: 300px;
 	align-items: center;
-	background: white;
-	margin-left: auto;
-	margin-right: auto;
+	//background: white;
+	//margin-left: auto;
+	//margin-right: auto;
 	margin-bottom: 50px;
 	margin-top: 80px;
+	background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(141, 221, 221));
+
 }
 #sec2_title {
 	padding: 0px 0px 20px 0px;
@@ -119,8 +127,9 @@ input[type=text] {
 	margin-bottom: 10px;
 	text-align: center;
 	border-radius: 5px;
-	size: 20px;
-	background-color: darkcyan;
+	size: 80px;
+	background-color: darkturquoise;
+	color: darkblue;
 	
 }
 input[type=date] {
@@ -129,33 +138,35 @@ input[type=date] {
 	color:darksalmon;
 	text-align: center;
 	border-radius: 5px;
-	background-color: darkcyan;
+	background-color:darkturquoise ;
+	color:darkblue;
 	
 }
 ::placeholder {
-	color: darksalmon;
+	color: darkblue;
 	text-align: center;
 }
 
 button {
-	background-color: darkblue;
+	background-color:darkturquoise ;
 	padding: 5px 10px;
 	text-decoration: none;
 	color: white;
 	border: none;
 	transition-duration: 0.4s;
+	border-radius: 5px;
 }
 
 button:hover {
-	background-color:darksalmon;
+	background-color:darkblue;
 }
 
 #banner{
 
 	background-repeat: no-repeat;
-	background-size: 300px;
+	background-size: 500px;
 	background-position: center;
-	height: 250px;
+	height: 350px;
 }
 
 #output_card {
@@ -195,16 +206,16 @@ button:hover {
 }
 
 #depart_info {
-	color:darksalmon;
+	color:darkblue;
 }
 
 #weather_title p{
 	font:bold;
-	color:darksalmon;
+	color:darkblue;
 }
 
 #day_desc {
-	color:darksalmon;
+	color:darkblue;
 }
 
 #weather_icon {
@@ -215,7 +226,7 @@ button:hover {
 	flex-direction: column;
 }
 .day_forcast p {
-	color: darksalmon;
+	color:darkblue;
 }
 //footer {
 	//display: flex;
